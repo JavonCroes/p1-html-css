@@ -46,7 +46,7 @@ nav img {
   font-family: 'Goldman';
   font-style: normal;
   font-weight: 700;
-  font-size: 5rem;
+  font-size: 6rem;
   color: white;
 }
 
@@ -58,7 +58,7 @@ nav img {
   font-family: 'Goldman';
   font-style: normal;
   font-weight: 700;
-  font-size: 5rem;
+  font-size: 6rem;
   color: white;
 }
 
@@ -69,6 +69,19 @@ nav img {
   height: 100vh;
   width: 100vw;  
 }
+
+.Page1Par{
+  text-align: center;
+  font-family: 'Goldman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 3em;
+  
+}
+
+
+
 
 
 
