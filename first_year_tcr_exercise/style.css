@@ -102,4 +102,15 @@ main p {
   float: left;
   margin: 2rem 0 0 100px;
 }
-
+.phpIMG{
+  float: left;
+  margin: 3rem 0 0 16rem;
+}
+.sqlIMG{
+  float: right;
+  margin: 3rem 200px 0 0;
+}
+.h2-p4 {
+  float: left;
+  margin: 6rem 0 0 100px;
+}
