@@ -12,6 +12,7 @@ body {
 
 nav {
   display: flex;
+  position: fixed;
   width: 100%;
   padding: 2rem;
   min-height: 10vh;
@@ -50,11 +51,11 @@ footer {
   position: absolute;
   bottom: 0;
   color: white;
+  justify-content: center;
 }
-
 .MainHomePage {
   background-image: url(img/background.jpeg);
-  height: 83.8vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -63,13 +64,19 @@ footer {
 .HomePageP {
   color: white;
   font-weight: bold;
-  
 }
 
 h1 {
   font-weight: bold;
+  text-align: center;
+  margin-top: 3rem;
 }
 
 h2 {
   font-weight: bold;
 }
+
+main {
+  padding-top: 12rem;
+}
+
