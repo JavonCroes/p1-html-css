@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(255, 82, 52);
+    height: 10vh;
+    font-size: 32px;
+    color: white;
+    padding: 15px 0 0 55px;
+}
+.section1{
+    height: 30vh;
+    background-color: rgb(255, 217, 0);
+}
+.section2{
+    height: 30vh;
+    background-color: orange;
+}
+.section3{
+    height: 30vh;
+    background-color: rgb(78, 184, 78);
+}
+section {
+    padding: 15px 0 0 55px;
+}
