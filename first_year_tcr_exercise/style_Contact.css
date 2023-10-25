@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: "Goldman", cursive;
+  }
+  
+  nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+  
+  footer {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .MainHomePage {
+    background-image: url(img/background.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  .HomePageP {
+    color: white;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  main {
+    padding-top: 12rem;
+  }
+  main p {
+    font-size: 18px;
+    
+  }
+  
+  .htmlIMG{
+    float: left;
+    margin: -10px 0 0 16rem;
+  }
+  .h2-p {
+    float: right;
+    margin: 3rem 100px 0 0;
+  }
+  .JavaIMG{
+    float: right;
+    margin: 6rem 40rem 0 0;
+  }
+  .h2-p2 {
+    float: left;
+    margin: 2rem 0 0 100px;
+    color: white;
+  }
+  .phpIMG{
+    float: left;
+    margin: 3rem 0 0 16rem;
+  }
+  .sqlIMG{
+    float: right;
+    margin: 3rem 200px 0 0;
+  }
+  .h2-p4 {
+    float: left;
+    margin: 6rem 0 0 100px;
+    color: white;
+  }
+  
+  .javascriptTitle{
+    color: white;
+  }
+  
+  .pageBackgroundBlack{
+    background-color: #151515;
+  }
+  
+  .spanJavascript{
+    color: #F7DF1E;
+  }
+  
+  .spanSQL{
+    color: #E48E00;
+  }
+  
+  .titleSQL{
+    color: white;
+  }
+
+  /* //////////////////////////// */
+
+
+body {
+    font-family: Arial, sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #00A8C7;
+    color: #fff;
+    padding: 10px 253px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 0 0 0px;;
+}
+
+button:hover {
+    background-color: #02859c;
+}
