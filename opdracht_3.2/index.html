@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Boek uw vakantie bij TUI</h1>
+    <form action="results.html" method="get">
+        <div>
+            <label for="voornaam">Voornaam:</label>
+            <input type="text"  name="voornaam" required pattern="[A-Za-z]+" title="Mag geen cijfers bevatten">
+        </div>
+
+        <div>
+            <label for="achternaam">Achternaam:</label>
+            <input type="text"  name="achternaam" required pattern="[A-Za-z]+" title="Mag geen cijfers bevatten">
+        </div>
+
+        <div>
+            <label for="geslacht">Geslacht:</label>
+            <input type="radio"  name="geslacht" value="man" checked>
+            <label for="man">Man</label>
+            <input type="radio"  name="geslacht" value="vrouw">
+            <label for="vrouw">Vrouw</label>
+        </div>
+
+        <div>
+            <label for="straat">Straat met huisnummer:</label>
+            <input type="text" name="straat" required>
+        </div>
+
+        <div>
+            <label for="postcode">Postcode:</label>
+            <input type="text"  name="postcode" required>
+        </div>
+
+        <div>
+            <label for="stad">Stad:</label>
+            <input type="text"  name="stad" required>
+        </div>
+
+        <div>
+            <label for="land">Land:</label>
+            <select  name="land" required>
+                <option value="Nederland">Nederland</option>
+                <option value="Frankrijk">Frankrijk</option>
+                <option value="Spanje">Spanje</option>
+                <option value="Italië">Italië</option>
+                
+            </select>
+        </div>
+
+        <div>
+            <label for="bsn">BSN-nummer:</label>
+            <input type="text"  name="bsn" required pattern="\d{9}" title="Moet 9 cijfers bevatten">
+        </div>
+
+        <div>
+            <label for="vakantieland">Vakantieland:</label>
+            <select  name="vakantieland" required>
+                <option value="Griekenland">Griekenland</option>
+                <option value="Turkije">Turkije</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Thailand">Thailand</option>
+                
+            </select>
+        </div>
+
+        <div>
+            <label for="vertrekdatum">Datum van vertrek:</label>
+            <input type="date"  name="vertrekdatum" required min="<?php echo date('Y-m-d'); ?>">
+        </div>
+
+        <div>
+            <label for="terugkomstdatum">Datum van terugkomst:</label>
+            <input type="date"  name="terugkomstdatum" required>
+        </div>
+
+        <div>
+            <label for="aantalreisgenoten">Aantal reisgenoten (max 4):</label>
+            <input type="number" name="aantalreisgenoten" required min="1" max="4">
+        </div>
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email"  name="email" required>
+        </div>
+
+        <div>
+            <label for="wachtwoord">Wachtwoord:</label>
+            <input type="password"  name="wachtwoord" required>
+        </div>
+
+        <div>
+            <input type="submit" value="Boek nu">
+        </div>
+    </form>
+</body>
+</html>
