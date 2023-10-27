@@ -21,6 +21,7 @@
     margin: auto;
     background: #00a8c7;
     justify-content: space-between;
+    font-family: "Goldman", cursive;
   }
   nav ul {
     display: flex;
@@ -141,13 +142,7 @@
   /* //////////////////////////// */
 
 
-body {
-    font-family: Arial, sans-serif;
-    
-    margin: 0;
-    padding: 0;
-    
-}
+
 
 .container {
     max-width: 600px;
@@ -197,4 +192,30 @@ button {
 
 button:hover {
     background-color: #02859c;
+}
+/* //////////////////////////// */
+ul li {
+  display: inline-block;
+  position: relative;
+}
+ul li ul.dropdown li {
+  display: block;
+  background-color: white;
+  margin: 2px 0px;
+}
+ul li ul.dropdown {
+  width: auto;
+  background: white;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+
+ul li ul a{
+  color: #00a8c7;
+  
+}
+ul li:hover ul.dropdown {
+  display: block;
+ 
 }

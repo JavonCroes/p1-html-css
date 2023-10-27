@@ -91,6 +91,7 @@ main p {
   
 }
 
+
 .htmlIMG{
   float: left;
   margin: -10px 0 0 16rem;
@@ -140,4 +141,67 @@ main p {
 
 .titleSQL{
   color: white;
+}
+
+/* Styles for the dropdown menu */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+  position: relative;
+}
+
+/* Styles for the "jaar 2" item */
+nav li.dropdown {
+  position: relative;
+}
+
+nav li.dropdown a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Styles for hover effect on "jaar 2" */
+nav li.dropdown:hover a {
+  color: #00A8C7;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Styles for the dropdown menu */
+nav .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Styles for the dropdown options */
+nav .dropdown-menu li {
+  display: block;
+}
+
+nav .dropdown-menu a {
+  color: #00A8C7;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  width: 100%; /* Ensure the options span the width of the dropdown */
+}
+
+/* Styles for hover effect in the dropdown options */
+nav .dropdown-menu li:hover {
+  background-color: #E9E9E9;
+}
+
+/* Show the dropdown menu when hovering over "jaar 2" */
+nav li.dropdown:hover .dropdown-menu {
+  display: block;
 }
