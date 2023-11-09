@@ -194,28 +194,63 @@ button:hover {
     background-color: #02859c;
 }
 /* //////////////////////////// */
-ul li {
-  display: inline-block;
-  position: relative;
-}
-ul li ul.dropdown li {
-  display: block;
-  background-color: white;
-  margin: 2px 0px;
-}
-ul li ul.dropdown {
-  width: auto;
-  background: white;
-  position: absolute;
-  z-index: 1;
-  display: none;
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-ul li ul a{
-  color: #00a8c7;
-  
+nav li {
+  display: inline;
+  margin-right: 20px;
+  position: relative;
 }
-ul li:hover ul.dropdown {
+
+nav li.dropdown {
+  position: relative;
+}
+
+nav li.dropdown a {
+  color: white;
+  text-decoration: none;
+}
+
+
+nav li.dropdown:hover a {
+  color: #00A8C7;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+nav .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+nav .dropdown-menu li {
   display: block;
- 
+}
+
+nav .dropdown-menu a {
+  color: #00A8C7;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  width: 100%;
+}
+
+
+nav .dropdown-menu li:hover {
+  background-color: #E9E9E9;
+}
+
+
+nav li.dropdown:hover .dropdown-menu {
+  display: block;
 }
