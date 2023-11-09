@@ -26,3 +26,68 @@ nav{
 section {
     padding: 15px 0 0 55px;
 }
+
+@media screen and (max-width: 768px) {
+    
+    nav{
+    background-color: #FF6B81;
+    height: 10vh;
+    font-size: 32px;
+    color: white;
+    padding: 15px 0 0 55px;
+}
+.section1{
+    color: white;
+    font-size: 20px;
+    height: 30vh;
+    background-color: #FE4657;
+}
+.section2{
+    color: white;
+    font-size: 20px;
+    height: 30vh;
+    background-color: #5352EC;
+}
+.section3{
+    color: white;
+    font-size: 20px;
+    height: 30vh;
+    background-color: #3742F9;
+}
+}
+
+@media screen and (max-width: 576px) {
+    nav{
+    background-color: #686DE0;
+    height: 10vh;
+    font-size: 32px;
+    color: white;
+    padding: 15px 0 0 55px;
+
+}
+nav div{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    
+}
+.section1{
+    color: white;
+    font-size: 20px;
+    height: 30vh;
+    background-color: #7ED6DF;
+}
+.section2{
+    color: white;
+    font-size: 20px;
+    height: 30vh;
+    background-color: #E056FD;
+}
+.section3{
+    color: white;
+    font-size: 20px;
+    height: 30vh;
+    background-color: #30336A;
+}
+
+}
