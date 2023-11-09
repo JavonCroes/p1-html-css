@@ -3,5 +3,29 @@
     padding: 0;
     box-sizing: border-box;
   }
-
+  .parent{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+  }
+.child1 {
+    width: 200px;
+    height: 200px;
+    background-color: #0823F9;
+}
+.child2 {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+}
+.child3 {
+    width: 200px;
+    height: 200px;
+    background-color: #FF0B00;
+}
+.child4 {
+    width: 200px;
+    height: 200px;
+    background-color: #007F1D;
+}
   
